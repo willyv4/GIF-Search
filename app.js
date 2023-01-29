@@ -1,5 +1,5 @@
 console.log("Let's get this party started!");
-const apiKey = "qqYI01dHSVwItchM7kIyUh8TURAkct7o";
+const apiKey = config.API_KEY;
 
 async function getData(gifSearched) {
   const response = await axios.get(
